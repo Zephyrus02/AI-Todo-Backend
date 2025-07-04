@@ -1,0 +1,20 @@
+[project]
+name = "smart-todo-backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "cryptography>=45.0.5",
+    "django>=5.2.4",
+    "django-cors-headers>=4.7.0",
+    "django-filter>=25.1",
+    "django-redis>=6.0.0",
+    "djangorestframework>=3.16.0",
+    "gunicorn>=23.0.0",
+    "psycopg2-binary>=2.9.10",
+    "pyjwt>=2.10.1",
+    "python-decouple>=3.8",
+    "requests>=2.32.4",
+    "supabase>=2.16.0",
+]
